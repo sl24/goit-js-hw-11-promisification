@@ -1,0 +1,35 @@
+body {
+  background-color: aquamarine;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li {
+  list-style: none;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #757575;
+  font-weight: 700;
+  font-size: 30px;
+  transition: color 500ms linear;
+}
+
+a:hover,
+a:focus {
+  color: #3d3c3c;
+}
+
+.smile {
+  margin-top: 30px;
+  display: inline-block;
+  color: aquamarine;
+  font-size: 12px;
+}
+
+.smile:hover,
+.smile:focus {
+  color: rgb(5, 143, 97);
+  transition: color 3000ms linear;
+}
